@@ -13,3 +13,8 @@ public func 배열_원소의_길이(_ strlist: [String]) -> [Int] {
     
     return result
 }
+
+//다른 풀이
+//func solution(_ strlist: [String]) -> [Int] {
+//    return strlist.map({ $0.count })
+}
