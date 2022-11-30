@@ -7,19 +7,19 @@ import Foundation
 public func 소인수분해(_ n: Int) -> [Int] {
     var number = n
     var division: Int = 2
-        var result = [Int]()
-        
-        while number > 1 {
-            if number % division != 0 {
-                division += 1
+    var result = [Int]()
+    
+    while number > 1 {
+        if number % division != 0 {
+            division += 1
+        } else {
+            number /= division
+            if result.contains(division) {
+                continue
             } else {
-                number /= division
-                if result.contains(division) {
-                    continue
-                } else {
-                    result.append(division)
-                }
+                result.append(division)
             }
         }
-        return result
+    }
+    return result
 }
