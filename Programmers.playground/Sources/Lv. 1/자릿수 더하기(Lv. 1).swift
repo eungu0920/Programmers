@@ -8,7 +8,7 @@ import Foundation
  - N의 범위 : 100,000,000 이하의 자연수
  */
 
-public func 자릿수_더하기(_ n: Int) -> Int {
+public func 자릿수_더하기_Lv1(_ n: Int) -> Int {
     var result: Int = 0
     
     for i in String(n) {
