@@ -22,4 +22,4 @@ public func 약수의_합(_ n: Int) -> Int {
 }
 
 //다른풀이
-func solution(_ n: Int) -> Int { n != 0 ? Array(1...n).filter { n % $0 == 0 }.reduce(0, +) : 0 }
+//func solution(_ n: Int) -> Int { n != 0 ? Array(1...n).filter { n % $0 == 0 }.reduce(0, +) : 0 }
