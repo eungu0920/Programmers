@@ -14,6 +14,6 @@ public func 두_정수_사이의_합(_ a: Int, _ b: Int) -> Int64 { Int64((min(a
 
 //다른풀이
 //와 등차수열의 합 생각도 못했네
-public func solution(_ a: Int, _ b: Int) -> Int64 {
-    return Int64(a + b) * Int64(max(a, b) - min(a, b) + 1) / Int64(2)
-}
+//public func solution(_ a: Int, _ b: Int) -> Int64 {
+//    return Int64(a + b) * Int64(max(a, b) - min(a, b) + 1) / Int64(2)
+//}
